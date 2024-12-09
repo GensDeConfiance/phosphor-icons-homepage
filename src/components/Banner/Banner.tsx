@@ -1,6 +1,6 @@
 import { ReactNode, Dispatch, SetStateAction } from "react";
 import { motion, AnimatePresence, Variants } from "framer-motion";
-import { XCircle } from "@phosphor-icons/react";
+import { XCircle } from "@gdc/phosphor-icons-react";
 import ReactGA from "react-ga4";
 
 import { useLocalStorage } from "@/hooks";

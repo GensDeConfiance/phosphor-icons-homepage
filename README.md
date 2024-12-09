@@ -37,12 +37,12 @@ Check out the full documentation on the [@phosphor-icons/web](https://github.com
 
 ### React
 
-- **Powerful** – Phosphor's intuitive but powerful API can style the `color`, `size`, and `weight` of an icon with a few keystrokes, provide default styles to all icons via the Context API, or directly manipulate the SVG at runtime through render props to do some amazing things! Check out the full documentation on the [@phosphor-icons/react](https://github.com/phosphor-icons/react) repo page.
+- **Powerful** – Phosphor's intuitive but powerful API can style the `color`, `size`, and `weight` of an icon with a few keystrokes, provide default styles to all icons via the Context API, or directly manipulate the SVG at runtime through render props to do some amazing things! Check out the full documentation on the [@gdc/phosphor-icons-react](https://github.com/phosphor-icons/react) repo page.
 
 ```jsx
 import React from "react";
 import ReactDOM from "react-dom";
-import { Smiley, Heart, Horse } from "@phosphor-icons/react";
+import { Smiley, Heart, Horse } from "@gdc/phosphor-icons-react";
 
 const App = () => {
   return (
@@ -92,8 +92,8 @@ ReactDOM.render(<App />, document.getElementById("root"));
 ## Our Related Projects
 
 - [@phosphor-icons/homepage](https://github.com/phosphor-icons/homepage) ▲ Phosphor homepage and general info
-- [@phosphor-icons/core](https://github.com/phosphor-icons/core) ▲ Phosphor icon assets and catalog
-- [@phosphor-icons/react](https://github.com/phosphor-icons/react) ▲ Phosphor icon component library for React
+- [@gdc/phosphor-icons-core](https://github.com/phosphor-icons/core) ▲ Phosphor icon assets and catalog
+- [@gdc/phosphor-icons-react](https://github.com/phosphor-icons/react) ▲ Phosphor icon component library for React
 - [@phosphor-icons/web](https://github.com/phosphor-icons/web) ▲ Phosphor icons for Vanilla JS
 - [@phosphor-icons/vue](https://github.com/phosphor-icons/vue) ▲ Phosphor icon component library for Vue
 - [@phosphor-icons/swift](https://github.com/phosphor-icons/swift) ▲ Phosphor icon component library for SwiftUI
@@ -127,4 +127,3 @@ If you've made a port of Phosphor and you want to see it here, just open a PR [h
 ## License
 
 MIT © [Phosphor Icons](https://github.com/phosphor-icons)
-

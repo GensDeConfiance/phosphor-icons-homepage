@@ -1,4 +1,4 @@
-import { IconContext } from "@phosphor-icons/react";
+import { IconContext } from "@gdc/phosphor-icons-react";
 
 import Recipe from "./Recipe";
 import items from "./items";

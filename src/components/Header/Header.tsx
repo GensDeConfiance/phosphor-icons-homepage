@@ -3,7 +3,7 @@ import {
   ArrowCircleDown,
   MegaphoneSimple,
   HandHeart,
-} from "@phosphor-icons/react";
+} from "@gdc/phosphor-icons-react";
 
 import Banner from "@/components/Banner";
 

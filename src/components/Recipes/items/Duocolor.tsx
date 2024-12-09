@@ -6,7 +6,7 @@ import {
   GasCan,
   IceCream,
   FlyingSaucer,
-} from "@phosphor-icons/react";
+} from "@gdc/phosphor-icons-react";
 
 import { RecipeProps } from "../Recipe";
 

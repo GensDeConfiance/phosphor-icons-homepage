@@ -1,4 +1,4 @@
-import { IconStyle } from "@phosphor-icons/core";
+import { IconStyle } from "@gdc/phosphor-icons-core";
 import TinyColor from "tinycolor2";
 
 import { SnippetType } from "@/lib";
@@ -30,29 +30,36 @@ export function getCodeSnippets({
   const { r, g, b } = TinyColor(color).toRgb();
 
   return {
-    [SnippetType.HTML]: `<i class="ph${isDefaultWeight ? "" : `-${weight}`
-      } ph-${name}"></i>`,
-    [SnippetType.REACT]: `<${displayName} size={${size}} ${!isDefaultColor ? `color="${color}" ` : ""
-      }${isDefaultWeight ? "" : `weight="${weight}" `}/>`,
-    [SnippetType.VUE]: `<Ph${displayName} :size="${size}" ${!isDefaultColor ? `color="${color}" ` : ""
-      }${isDefaultWeight ? "" : `weight="${weight}" `}/>`,
+    [SnippetType.HTML]: `<i class="ph${
+      isDefaultWeight ? "" : `-${weight}`
+    } ph-${name}"></i>`,
+    [SnippetType.REACT]: `<${displayName} size={${size}} ${
+      !isDefaultColor ? `color="${color}" ` : ""
+    }${isDefaultWeight ? "" : `weight="${weight}" `}/>`,
+    [SnippetType.VUE]: `<Ph${displayName} :size="${size}" ${
+      !isDefaultColor ? `color="${color}" ` : ""
+    }${isDefaultWeight ? "" : `weight="${weight}" `}/>`,
     [SnippetType.FLUTTER]: `Icon(\n  PhosphorIcons.${displayName.replace(
       /^\w/,
       (c) => c.toLowerCase()
-    )}${isDefaultWeight ? "" : weight.replace(/^\w/, (c) => c.toUpperCase())
-      },\n  size: ${size.toFixed(1)},\n${!isDefaultColor ? `  color: Color(0xff${color.replace("#", "")}),\n` : ""
-      })`,
-    [SnippetType.ELM]: `Phosphor.${camelName}${isDefaultWeight ? "" : " " + pascalWeight
-      }
+    )}${
+      isDefaultWeight ? "" : weight.replace(/^\w/, (c) => c.toUpperCase())
+    },\n  size: ${size.toFixed(1)},\n${
+      !isDefaultColor ? `  color: Color(0xff${color.replace("#", "")}),\n` : ""
+    })`,
+    [SnippetType.ELM]: `Phosphor.${camelName}${
+      isDefaultWeight ? "" : " " + pascalWeight
+    }
     |> withSize ${size}
     |> withSizeUnit "px"
     |> toHtml []`,
-    [SnippetType.SWIFT]: `Ph.${camelName}.${weight}${!isDefaultColor
+    [SnippetType.SWIFT]: `Ph.${camelName}.${weight}${
+      !isDefaultColor
         ? `\n    .color(red: ${u8ToCGFloatStr(r)}, green: ${u8ToCGFloatStr(
-          g
-        )}, blue: ${u8ToCGFloatStr(b)})`
+            g
+          )}, blue: ${u8ToCGFloatStr(b)})`
         : ""
-      }
+    }
     .frame(width: ${size}, height: ${size})
     `,
   };

@@ -1,4 +1,4 @@
-import { ArrowCircleUpRight } from "@phosphor-icons/react";
+import { ArrowCircleUpRight } from "@gdc/phosphor-icons-react";
 
 export type RecipeProps = {
   title: string;
