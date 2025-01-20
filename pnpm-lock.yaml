@@ -9,10 +9,10 @@ importers:
   .:
     dependencies:
       '@gdc/phosphor-icons-core':
-        specifier: ^2.1.1
+        specifier: ^2.1.1-gdc.0
         version: 2.1.1
       '@gdc/phosphor-icons-react':
-        specifier: ^2.1.4
+        specifier: ^2.1.7-gdc.0
         version: 2.1.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@recoiljs/refine':
         specifier: ^0.1.1

@@ -1,6 +1,6 @@
 {
   "name": "@gdc/phosphor-icons-homepage",
-  "version": "2.1.1",
+  "version": "2.1.1-gdc.0",
   "license": "MIT",
   "homepage": "https://phosphoricons.com",
   "author": {
@@ -30,8 +30,8 @@
     "sync-docs": "tsx scripts/sync-docs.ts"
   },
   "dependencies": {
-    "@gdc/phosphor-icons-core": "^2.1.1",
-    "@gdc/phosphor-icons-react": "^2.1.4",
+    "@gdc/phosphor-icons-core": "^2.1.1-gdc.0",
+    "@gdc/phosphor-icons-react": "^2.1.7-gdc.0",
     "@recoiljs/refine": "^0.1.1",
     "file-saver": "^2.0.2",
     "framer-motion": "^10.17.12",
