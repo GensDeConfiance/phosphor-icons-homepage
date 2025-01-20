@@ -1,5 +1,5 @@
 {
-  "name": "@phosphor-icons/homepage",
+  "name": "@gdc/phosphor-icons-homepage",
   "version": "2.1.1",
   "license": "MIT",
   "homepage": "https://phosphoricons.com",
@@ -18,9 +18,9 @@
     "UI",
     "UX"
   ],
-  "repository": "github:phosphor-icons/homepage",
+  "repository": "https://github.com/GensDeConfiance/phosphor-icons-homepage",
   "private": true,
-  "packageManager": "pnpm@9",
+  "packageManager": "pnpm@9.15.4",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -30,8 +30,8 @@
     "sync-docs": "tsx scripts/sync-docs.ts"
   },
   "dependencies": {
-    "@phosphor-icons/core": "^2.1.1",
-    "@phosphor-icons/react": "^2.1.4",
+    "@gdc/phosphor-icons-core": "^2.1.1",
+    "@gdc/phosphor-icons-react": "^2.1.4",
     "@recoiljs/refine": "^0.1.1",
     "file-saver": "^2.0.2",
     "framer-motion": "^10.17.12",

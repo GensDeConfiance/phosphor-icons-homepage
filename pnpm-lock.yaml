@@ -8,12 +8,12 @@ importers:
 
   .:
     dependencies:
-      '@phosphor-icons/core':
+      '@gdc/phosphor-icons-core':
         specifier: ^2.1.1
         version: 2.1.1
-      '@phosphor-icons/react':
+      '@gdc/phosphor-icons-react':
         specifier: ^2.1.4
-        version: 2.1.4(react-dom@18.2.0)(react@18.2.0)
+        version: 2.1.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@recoiljs/refine':
         specifier: ^0.1.1
         version: 0.1.1
@@ -22,7 +22,7 @@ importers:
         version: 2.0.5
       framer-motion:
         specifier: ^10.17.12
-        version: 10.17.12(react-dom@18.2.0)(react@18.2.0)
+        version: 10.17.12(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       fuse.js:
         specifier: ^6.4.1
         version: 6.6.2
@@ -34,19 +34,19 @@ importers:
         version: 18.2.0(react@18.2.0)
       react-dropdown-select:
         specifier: ^4.4.2
-        version: 4.11.0(@types/react@18.2.47)(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
+        version: 4.11.0(@types/react@18.2.47)(prop-types@15.8.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react-ga4:
         specifier: ^2.1.0
         version: 2.1.0
       react-hotkeys-hook:
         specifier: ^4.4.3
-        version: 4.4.3(react-dom@18.2.0)(react@18.2.0)
+        version: 4.4.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       recoil:
         specifier: ^0.7.7
-        version: 0.7.7(react-dom@18.2.0)(react@18.2.0)
+        version: 0.7.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       recoil-sync:
         specifier: ^0.2.0
-        version: 0.2.0(recoil@0.7.7)
+        version: 0.2.0(recoil@0.7.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       svg2png-converter:
         specifier: ^1.0.2
         version: 1.0.2
@@ -71,7 +71,7 @@ importers:
         version: 1.4.6
       '@vitejs/plugin-react':
         specifier: ^3.1.0
-        version: 3.1.0(vite@4.5.2)
+        version: 3.1.0(vite@4.5.2(@types/node@18.19.6))
       iconjar-exporter:
         specifier: ^1.0.10
         version: 1.0.10
@@ -89,7 +89,7 @@ importers:
         version: 4.5.2(@types/node@18.19.6)
       vite-plugin-svgr:
         specifier: ^2.4.0
-        version: 2.4.0(vite@4.5.2)
+        version: 2.4.0(rollup@3.29.4)(vite@4.5.2(@types/node@18.19.6))
 
 packages:
 
@@ -534,6 +534,16 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@gdc/phosphor-icons-core@2.1.1':
+    resolution: {integrity: sha512-H0bOXxPFXKSpGuS0W3MF+9Hffo0j+66p/zdKEVJs8os013dvBbzBII7uum4TzXZ77i+uSLfh6F5aLjI58Z2LhQ==}
+
+  '@gdc/phosphor-icons-react@2.1.7':
+    resolution: {integrity: sha512-SS+zyLn59P1VSXtCbYjq2I8L28BuiyvutH19M45NHfkBe9f2fQsHnDmKE4SWp2wTyIcD2Vx335w03rT4P0nlkA==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: '>= 16.8'
+      react-dom: '>= 16.8'
+
   '@jridgewell/gen-mapping@0.3.3':
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
     engines: {node: '>=6.0.0'}
@@ -551,16 +561,6 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.20':
     resolution: {integrity: sha512-R8LcPeWZol2zR8mmH3JeKQ6QRCFb7XgUhV9ZlGhHLGyg4wpPiPZNQOOWhFZhxKw8u//yTbNGI42Bx/3paXEQ+Q==}
-
-  '@phosphor-icons/core@2.1.1':
-    resolution: {integrity: sha512-v4ARvrip4qBCImOE5rmPUylOEK4iiED9ZyKjcvzuezqMaiRASCHKcRIuvvxL/twvLpkfnEODCOJp5dM4eZilxQ==}
-
-  '@phosphor-icons/react@2.1.4':
-    resolution: {integrity: sha512-EeNwgcg1aeK5vG/JYVTullnZzk5zjftOrjLb1iYetyhn5ImFFREc+xG0FAB/dAY277DGDSF8pNdNbqG1SUKIxQ==}
-    engines: {node: '>=10'}
-    peerDependencies:
-      react: '>= 16.8'
-      react-dom: '>= 16.8'
 
   '@recoiljs/refine@0.1.1':
     resolution: {integrity: sha512-ry02rHswJePYkH1o8K99qL4O6TBntF9/g7W5wXVwaOUrIJEZUGfl/I3+btPXbUgyyEZvNs5xcwvOw13AufmFQw==}
@@ -875,7 +875,7 @@ packages:
     resolution: {integrity: sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==}
 
   object-assign@4.1.1:
-    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
+    resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=}
     engines: {node: '>=0.10.0'}
 
   parent-module@1.0.1:
@@ -1280,9 +1280,10 @@ snapshots:
       '@emotion/use-insertion-effect-with-fallbacks': 1.0.1(react@18.2.0)
       '@emotion/utils': 1.2.1
       '@emotion/weak-memoize': 0.3.1
-      '@types/react': 18.2.47
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
+    optionalDependencies:
+      '@types/react': 18.2.47
 
   '@emotion/serialize@1.1.3':
     dependencies:
@@ -1294,7 +1295,7 @@ snapshots:
 
   '@emotion/sheet@1.2.2': {}
 
-  '@emotion/styled@11.11.0(@emotion/react@11.11.0)(@types/react@18.2.47)(react@18.2.0)':
+  '@emotion/styled@11.11.0(@emotion/react@11.11.0(@types/react@18.2.47)(react@18.2.0))(@types/react@18.2.47)(react@18.2.0)':
     dependencies:
       '@babel/runtime': 7.23.8
       '@emotion/babel-plugin': 11.11.0
@@ -1303,8 +1304,9 @@ snapshots:
       '@emotion/serialize': 1.1.3
       '@emotion/use-insertion-effect-with-fallbacks': 1.0.1(react@18.2.0)
       '@emotion/utils': 1.2.1
-      '@types/react': 18.2.47
       react: 18.2.0
+    optionalDependencies:
+      '@types/react': 18.2.47
 
   '@emotion/unitless@0.8.1': {}
 
@@ -1451,6 +1453,13 @@ snapshots:
   '@esbuild/win32-x64@0.19.12':
     optional: true
 
+  '@gdc/phosphor-icons-core@2.1.1': {}
+
+  '@gdc/phosphor-icons-react@2.1.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+
   '@jridgewell/gen-mapping@0.3.3':
     dependencies:
       '@jridgewell/set-array': 1.1.2
@@ -1468,20 +1477,15 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@phosphor-icons/core@2.1.1': {}
-
-  '@phosphor-icons/react@2.1.4(react-dom@18.2.0)(react@18.2.0)':
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-
   '@recoiljs/refine@0.1.1': {}
 
-  '@rollup/pluginutils@5.1.0':
+  '@rollup/pluginutils@5.1.0(rollup@3.29.4)':
     dependencies:
       '@types/estree': 1.0.5
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    optionalDependencies:
+      rollup: 3.29.4
 
   '@svgr/babel-plugin-add-jsx-attribute@6.5.1(@babel/core@7.23.7)':
     dependencies:
@@ -1578,7 +1582,7 @@ snapshots:
 
   '@types/tinycolor2@1.4.6': {}
 
-  '@vitejs/plugin-react@3.1.0(vite@4.5.2)':
+  '@vitejs/plugin-react@3.1.0(vite@4.5.2(@types/node@18.19.6))':
     dependencies:
       '@babel/core': 7.23.7
       '@babel/plugin-transform-react-jsx-self': 7.23.3(@babel/core@7.23.7)
@@ -1713,13 +1717,13 @@ snapshots:
 
   find-root@1.1.0: {}
 
-  framer-motion@10.17.12(react-dom@18.2.0)(react@18.2.0):
+  framer-motion@10.17.12(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
       tslib: 2.6.2
     optionalDependencies:
       '@emotion/is-prop-valid': 0.8.8
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
 
   fsevents@2.3.3:
     optional: true
@@ -1830,10 +1834,10 @@ snapshots:
       react: 18.2.0
       scheduler: 0.23.0
 
-  react-dropdown-select@4.11.0(@types/react@18.2.47)(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0):
+  react-dropdown-select@4.11.0(@types/react@18.2.47)(prop-types@15.8.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       '@emotion/react': 11.11.0(@types/react@18.2.47)(react@18.2.0)
-      '@emotion/styled': 11.11.0(@emotion/react@11.11.0)(@types/react@18.2.47)(react@18.2.0)
+      '@emotion/styled': 11.11.0(@emotion/react@11.11.0(@types/react@18.2.47)(react@18.2.0))(@types/react@18.2.47)(react@18.2.0)
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1842,7 +1846,7 @@ snapshots:
 
   react-ga4@2.1.0: {}
 
-  react-hotkeys-hook@4.4.3(react-dom@18.2.0)(react@18.2.0):
+  react-hotkeys-hook@4.4.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1855,16 +1859,17 @@ snapshots:
     dependencies:
       loose-envify: 1.4.0
 
-  recoil-sync@0.2.0(recoil@0.7.7):
+  recoil-sync@0.2.0(recoil@0.7.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0)):
     dependencies:
       '@recoiljs/refine': 0.1.1
-      recoil: 0.7.7(react-dom@18.2.0)(react@18.2.0)
+      recoil: 0.7.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       transit-js: 0.8.874
 
-  recoil@0.7.7(react-dom@18.2.0)(react@18.2.0):
+  recoil@0.7.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       hamt_plus: 1.0.2
       react: 18.2.0
+    optionalDependencies:
       react-dom: 18.2.0(react@18.2.0)
 
   regenerator-runtime@0.14.1: {}
@@ -1930,9 +1935,9 @@ snapshots:
       escalade: 3.1.1
       picocolors: 1.0.0
 
-  vite-plugin-svgr@2.4.0(vite@4.5.2):
+  vite-plugin-svgr@2.4.0(rollup@3.29.4)(vite@4.5.2(@types/node@18.19.6)):
     dependencies:
-      '@rollup/pluginutils': 5.1.0
+      '@rollup/pluginutils': 5.1.0(rollup@3.29.4)
       '@svgr/core': 6.5.1
       vite: 4.5.2(@types/node@18.19.6)
     transitivePeerDependencies:
@@ -1941,11 +1946,11 @@ snapshots:
 
   vite@4.5.2(@types/node@18.19.6):
     dependencies:
-      '@types/node': 18.19.6
       esbuild: 0.18.20
       postcss: 8.4.33
       rollup: 3.29.4
     optionalDependencies:
+      '@types/node': 18.19.6
       fsevents: 2.3.3
 
   yallist@3.1.1: {}
