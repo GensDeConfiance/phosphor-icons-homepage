@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@gdc/phosphor-icons-core':
-        specifier: ^2.1.1-gdc.0
-        version: 2.1.1
+        specifier: 2.1.1-gdc.1
+        version: 2.1.1-gdc.1
       '@gdc/phosphor-icons-react':
-        specifier: ^2.1.7-gdc.0
-        version: 2.1.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        specifier: 2.1.7-gdc.1
+        version: 2.1.7-gdc.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@recoiljs/refine':
         specifier: ^0.1.1
         version: 0.1.1
@@ -534,11 +534,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@gdc/phosphor-icons-core@2.1.1':
-    resolution: {integrity: sha512-H0bOXxPFXKSpGuS0W3MF+9Hffo0j+66p/zdKEVJs8os013dvBbzBII7uum4TzXZ77i+uSLfh6F5aLjI58Z2LhQ==}
+  '@gdc/phosphor-icons-core@2.1.1-gdc.1':
+    resolution: {integrity: sha512-6owGT3xbRZRxY5WDcuQzHynNwZA4VwAT0oYLH/Uv07rarkNME236WkyJvBMQG8YlwNplbQszuotDWS24dURGHQ==}
 
-  '@gdc/phosphor-icons-react@2.1.7':
-    resolution: {integrity: sha512-SS+zyLn59P1VSXtCbYjq2I8L28BuiyvutH19M45NHfkBe9f2fQsHnDmKE4SWp2wTyIcD2Vx335w03rT4P0nlkA==}
+  '@gdc/phosphor-icons-react@2.1.7-gdc.1':
+    resolution: {integrity: sha512-pz2xiCKAfNEfFyQbSipPvFf1iBeFQqO1jd/5MlOsiyVB9mHJr+OuVo8yzYFl6aq8h2fgVY0XW34GqPfdhP1GyQ==}
     engines: {node: '>=10'}
     peerDependencies:
       react: '>= 16.8'
@@ -1453,9 +1453,9 @@ snapshots:
   '@esbuild/win32-x64@0.19.12':
     optional: true
 
-  '@gdc/phosphor-icons-core@2.1.1': {}
+  '@gdc/phosphor-icons-core@2.1.1-gdc.1': {}
 
-  '@gdc/phosphor-icons-react@2.1.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@gdc/phosphor-icons-react@2.1.7-gdc.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
