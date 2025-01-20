@@ -3,7 +3,7 @@ import {
   ArrowCircleDown,
   MegaphoneSimple,
   HandHeart,
-} from "@phosphor-icons/react";
+} from "@gdc/phosphor-icons-react";
 
 import Banner from "@/components/Banner";
 
@@ -61,12 +61,9 @@ const Header = (_: HeaderProps) => {
               <a href="https://www.buymeacoffee.com/phosphoricons">
                 Buy Me a Coffee
               </a>{" "}
-              and{" "}
-              <a href="https://ko-fi.com/phosphoricons">
-                Ko-fi
-              </a>
-              ! Your one-time or recurring contribution does a lot to keep us
-              going. Please show us some support if you can!
+              and <a href="https://ko-fi.com/phosphoricons">Ko-fi</a>! Your
+              one-time or recurring contribution does a lot to keep us going.
+              Please show us some support if you can!
             </small>
           </div>
         </Banner>

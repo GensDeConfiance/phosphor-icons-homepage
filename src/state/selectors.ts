@@ -2,7 +2,7 @@ import { selector, selectorFamily } from "recoil";
 import TinyColor from "tinycolor2";
 // @ts-ignore
 import Fuse from "fuse.js";
-import { IconCategory } from "@phosphor-icons/core";
+import { IconCategory } from "@gdc/phosphor-icons-core";
 
 import {
   searchQueryAtom,

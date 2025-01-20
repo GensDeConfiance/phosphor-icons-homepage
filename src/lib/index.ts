@@ -1,5 +1,5 @@
-import { Icon } from "@phosphor-icons/react";
-import { IconEntry as CoreEntry } from "@phosphor-icons/core";
+import { Icon } from "@gdc/phosphor-icons-react";
+import { IconEntry as CoreEntry } from "@gdc/phosphor-icons-core";
 
 export interface IconEntry extends CoreEntry {
   Icon: Icon;

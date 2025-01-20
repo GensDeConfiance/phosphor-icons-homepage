@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { useRecoilState, useRecoilValue } from "recoil";
-import { EyedropperSample } from "@phosphor-icons/react";
+import { EyedropperSample } from "@gdc/phosphor-icons-react";
 
 import { useThrottled } from "@/hooks";
 import { iconColorAtom, isDarkThemeSelector } from "@/state";

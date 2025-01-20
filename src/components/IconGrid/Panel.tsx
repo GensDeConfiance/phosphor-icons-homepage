@@ -17,8 +17,8 @@ import {
   XCircle,
   CaretDoubleLeft,
   CaretDoubleRight,
-} from "@phosphor-icons/react";
-import { IconStyle } from "@phosphor-icons/core";
+} from "@gdc/phosphor-icons-react";
+import { IconStyle } from "@gdc/phosphor-icons-core";
 import ReactGA from "react-ga4";
 
 import Tabs, { Tab } from "@/components/Tabs";

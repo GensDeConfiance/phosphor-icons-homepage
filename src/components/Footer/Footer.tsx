@@ -1,6 +1,6 @@
 import { useRecoilValue } from "recoil";
 import { motion, AnimatePresence, Variants } from "framer-motion";
-import { ArrowULeftUp, Coffee, HandHeart } from "@phosphor-icons/react";
+import { ArrowULeftUp, Coffee, HandHeart } from "@gdc/phosphor-icons-react";
 
 import Links from "@/components/Links/Links";
 

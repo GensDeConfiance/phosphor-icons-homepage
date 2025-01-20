@@ -6,8 +6,8 @@ import {
   CheckCircle,
   DiceFive,
   Link,
-} from "@phosphor-icons/react";
-import { IconStyle } from "@phosphor-icons/core";
+} from "@gdc/phosphor-icons-react";
+import { IconStyle } from "@gdc/phosphor-icons-core";
 
 import { useTransientState } from "@/hooks";
 import {

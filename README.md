@@ -5,6 +5,7 @@
 <!-- END_LOGO -->
 
 <!-- BEGIN_OVERVIEW -->
+
 Phosphor is a flexible icon family for interfaces, diagrams, presentations — whatever, really.
 
 - 1,248 icons and counting
@@ -13,6 +14,7 @@ Phosphor is a flexible icon family for interfaces, diagrams, presentations — w
 - Raw stroke information retained to fine-tune the style
 
 More ways to use at [phosphoricons.com](https://phosphoricons.com).
+
 <!-- END_OVERVIEW -->
 
 ## For developers
@@ -41,12 +43,12 @@ Check out the full documentation on the [@phosphor-icons/web](https://github.com
 
 ### React
 
-- **Powerful** – Phosphor's intuitive but powerful API can style the `color`, `size`, and `weight` of an icon with a few keystrokes, provide default styles to all icons via the Context API, or directly manipulate the SVG at runtime through render props to do some amazing things! Check out the full documentation on the [@phosphor-icons/react](https://github.com/phosphor-icons/react) repo page.
+- **Powerful** – Phosphor's intuitive but powerful API can style the `color`, `size`, and `weight` of an icon with a few keystrokes, provide default styles to all icons via the Context API, or directly manipulate the SVG at runtime through render props to do some amazing things! Check out the full documentation on the [@gdc/phosphor-icons-react](https://github.com/phosphor-icons/react) repo page.
 
 ```jsx
 import React from "react";
 import ReactDOM from "react-dom";
-import { Smiley, Heart, Horse } from "@phosphor-icons/react";
+import { Smiley, Heart, Horse } from "@gdc/phosphor-icons-react";
 
 const App = () => {
   return (
@@ -94,16 +96,17 @@ ReactDOM.render(<App />, document.getElementById("root"));
 > Due to possible namespace collisions with built-in HTML elements, compononent names in the Vue library are prefixed with `Ph`, but otherwise follow the same naming conventions. Both Pascal and kebab-case conventions can be used in templates.
 
 <!-- BEGIN_LINKS -->
+
 ## Our Projects
 
 - [@phosphor-icons/homepage](https://github.com/phosphor-icons/homepage) ▲ Phosphor homepage and general info
-- [@phosphor-icons/core](https://github.com/phosphor-icons/core) ▲ Phosphor icon assets and catalog
+- [@gdc/phosphor-icons-core](https://github.com/phosphor-icons/core) ▲ Phosphor icon assets and catalog
 - [@phosphor-icons/elm](https://github.com/phosphor-icons/phosphor-elm) ▲ Phosphor icons for Elm
 - [@phosphor-icons/figma](https://github.com/phosphor-icons/figma) ▲ Phosphor icons Figma plugin
 - [@phosphor-icons/flutter](https://github.com/phosphor-icons/flutter) ▲ Phosphor IconData library for Flutter
 - [@phosphor-icons/pack](https://github.com/phosphor-icons/pack) ▲ Phosphor web font stripper to generate minimal icon bundles
 - [@phosphor-icons/penpot](https://github.com/phosphor-icons/penpot) ▲ Phosphor icons Penpot plugin
-- [@phosphor-icons/react](https://github.com/phosphor-icons/react) ▲ Phosphor icon component library for React
+- [@gdc/phosphor-icons-react](https://github.com/phosphor-icons/react) ▲ Phosphor icon component library for React
 - [@phosphor-icons/sketch](https://github.com/phosphor-icons/sketch) ▲ Phosphor icons Sketch plugin
 - [@phosphor-icons/swift](https://github.com/phosphor-icons/swift) ▲ Phosphor icon component library for SwiftUI
 - [@phosphor-icons/theme](https://github.com/phosphor-icons/theme) ▲ A VS Code (and other IDE) theme with the Phosphor color palette
@@ -142,4 +145,5 @@ If you've made a port of Phosphor and you want to see it here, just open a PR [h
 ## License
 
 MIT © [Phosphor Icons](https://github.com/phosphor-icons)
+
 <!-- END_LINKS -->
