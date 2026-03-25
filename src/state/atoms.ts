@@ -2,7 +2,7 @@ import { atom } from "recoil";
 import { syncEffect } from "recoil-sync";
 import TinyColor from "tinycolor2";
 import { custom, stringLiterals } from "@recoiljs/refine";
-import { IconStyle } from "@phosphor-icons/core";
+import { IconStyle } from "@gdc/phosphor-icons-core";
 import { IconEntry } from "@/lib";
 
 export const searchQueryAtom = atom<string>({

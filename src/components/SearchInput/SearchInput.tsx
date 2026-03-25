@@ -12,7 +12,7 @@ import {
   MagnifyingGlass,
   X,
   HourglassHigh,
-} from "@phosphor-icons/react";
+} from "@gdc/phosphor-icons-react";
 import ReactGA from "react-ga4";
 
 import { useDebounce } from "@/hooks";

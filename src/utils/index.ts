@@ -1,4 +1,4 @@
-import { IconStyle } from "@phosphor-icons/core";
+import { IconStyle } from "@gdc/phosphor-icons-core";
 import TinyColor from "tinycolor2";
 
 import { SnippetType } from "@/lib";

@@ -1,4 +1,4 @@
-import { CassetteTape, Cube, Virus, ThumbsUp } from "@phosphor-icons/react";
+import { CassetteTape, Cube, Virus, ThumbsUp } from "@gdc/phosphor-icons-react";
 
 import { RecipeProps } from "../Recipe";
 
