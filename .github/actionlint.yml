@@ -1,0 +1,6 @@
+# See https://github.com/rhysd/actionlint/blob/v1.7.11/docs/config.md
+
+paths:
+  .github/workflows/**:
+    ignore:
+      - "shellcheck reported issue in this script"
